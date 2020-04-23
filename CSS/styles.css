@@ -91,6 +91,7 @@ h3{
   .middle-container{
     flex-wrap: wrap;
     flex-direction: column;
+    padding: 0 20px;
   }
 
   .square{
