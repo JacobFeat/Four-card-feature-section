@@ -33,7 +33,12 @@ p{
   font-weight: 400;
   width: 500px;
   margin: 20px auto;
-  text-align: center;
+}
+
+.top-container{
+  border: solid 1px black;
+  width: 520px;
+  margin: 0 auto;
 }
 
 /* MIDDLE OF PAGE */
@@ -58,7 +63,7 @@ p{
   margin: 30px;
   padding: 15px 35px;
   text-align: left;
-  box-shadow: 0 20px 40px #E1E1E1;
+  box-shadow: 0 10px 30px #BCDEDE;
 }
 
 .image{
