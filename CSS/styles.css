@@ -1,0 +1,97 @@
+body {
+  text-align: center;
+  margin: 0;
+  color: #A3A3A3;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* FONTS */
+
+h1{
+  font-weight: 200;
+  margin: 40px 0 0;
+}
+
+h3{
+  color: #616161;
+  font-weight: 600;
+}
+
+p{
+  margin-bottom: 40px;
+  font-size: 0.9rem;
+}
+
+.thick {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #616161;
+  margin: 0;
+}
+
+.intro {
+  font-weight: 400;
+  width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* MIDDLE OF PAGE */
+
+.middle-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-square{
+  display: flex;
+  flex-direction: column;
+}
+
+/* CARDS */
+
+.square{
+  border: 1px #F0F0F0 solid;
+  border-radius: 2%;
+  width: 300px;
+  margin: 30px;
+  padding: 15px 35px;
+  text-align: left;
+  box-shadow: 0 20px 40px #E1E1E1;
+}
+
+.image{
+  float: right;
+}
+
+.green{
+  border-top: hsl(180, 62%, 55%) 5px solid;
+}
+
+.red{
+  border-top: hsl(0, 78%, 62%) 5px solid;
+}
+
+.yellow{
+  border-top: hsl(34, 97%, 64%) 5px solid;
+}
+
+.blue{
+  border-top: hsl(212, 86%, 64%) 5px solid;
+}
+
+/* FOOTER */
+.attribution{
+  margin-top: 100px;
+}
+
+/* MEDIA */
+
+@media (max-width:900px){
+
+  .middle-container{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
